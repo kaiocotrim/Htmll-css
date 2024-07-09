@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body{
+    background-color: #006992;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: rgb(0, 0, 0); 
+}
+
+h2{
+    color: #001D4A;
+}
+
+#principal {
+    background-color: #27476E ;
+    color: #001D4A;
+    text-align: center;
+
+}
+
+p{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 5px black;
+
+}
+
+#html{
+    text-align: center;
+    color: #EAF8BF;
+    background-color: #ECA400;
+}
+
+
+#css{
+    text-align: center;
+    color: #ACADBC;
+    background-color: #FCFCFC;
+}
+
+
+
+.basico{
+    color: #004a0a;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.intermediario{
+    color: #4a4300;
+text-shadow: 1px 1px 1px #000000;
+}
+
+.avancado{
+    color: #4a0000;
+}
