@@ -19,7 +19,7 @@
 
 html,body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(255, 255, 255);
 }
 
 header{
@@ -70,17 +70,36 @@ section.imagem{
 }
 
 
+section > p {
+    padding-bottom: 2em;
+}
 section.imagem{
     background-color: white;
     color: white;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.411);
+    background-attachment: fixed;
+    background-size: cover
+    
 }
 
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.308);
-    width: 400px;
-
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.671);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.527);
 }
 
+
+#imagem01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+#imagem02{
+    background-image: url(../imagens/background002.jpg);
+    
+    ;
+}
 
 footer{
     background-color: black;
