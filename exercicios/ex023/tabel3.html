@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de tabela</title>
+    
+    
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }    
+
+        td{
+            text-align: center;
+            width: 200px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+
+    </style>
+
+</head>
+
+
+<body>
+    <h1>Expansão de tabela</h1>
+
+    <table>
+        <tr>
+            <td rowspan="2">A </td>
+            <td colspan="2">B</td>
+            
+        </tr>
+
+        <tr>
+
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">G</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">J</td>
+            <td>L</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
