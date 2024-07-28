@@ -76,7 +76,3 @@ tfoot td, th{
 tbody > tr:nth-child(2n){
     background-color: rgba(0, 0, 0, 0.185);
 }
-
-.site{
-    overflow-x: auto;
-}
