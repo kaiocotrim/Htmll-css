@@ -17,11 +17,15 @@
 <body>
     <h1>Meu primeiro Formmulario</h1>
 
-    <Form>
-        <p>Nome <input type="text" name="Nome" id="nome"> :</p>
-        <P>Idade <input type="text" name="idade" id="idade">:</P>
+    <Form action="cadastro.php" method="post" autocomplete="off">
+        <label for="inome">
+            <p>Nome <input type="text" name="Nome" id="inome"> :</p>
+        </label>
+        <label for="iidade">
+            <P>Idade <input type="text" name="idade" id="iidade">:</P>
+        </label>
         <p><input type="submit" value="Salvar"></p>
         
     </Form>
 </body>
-</html>
+</html> 
