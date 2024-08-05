@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulario</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    
+    <form action="cadastro.php" method="get">
+        
+        <p>
+            <label for="ies">Estados</label>
+            <select name="es" id="ies">
+
+                <optgroup label="Estados Do Nordeste">
+                    <option value="CE">Ceara</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="BH">Bahia</option>
+                </optgroup>
+
+
+
+                <optgroup label="Estados do Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+            </select> 
+
+            <br><br>
+
+            <label for="ip">Profissão</label>
+            <input type="text" name="p" id="ip" list="ipr">
+            <datalist id="ipr">
+                <option >DEV</option>
+                <option value="TI">ANALISE DE DADOS</option>
+                <option value="TI">QA</option>
+            </datalist>
+
+
+            <p>
+                <label for="imsg">Mensagem :</label><br>
+                <textarea name="msg" id="imsg"></textarea>
+            </p>
+
+
+        </p>
+        
+    
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
